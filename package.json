@@ -1,0 +1,31 @@
+{
+  "name": "alexa-awtrix-sleep",
+  "version": "1.0.0",
+  "description": "Put your AWTRIX into standby from Alexa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --write app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmarban/alexa-awtrix-sleep.git"
+  },
+  "keywords": [
+    "Alexa",
+    "AWTRIX"
+  ],
+  "author": "Ivan Marban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanmarban/alexa-awtrix-sleep/issues"
+  },
+  "homepage": "https://github.com/ivanmarban/alexa-awtrix-sleep#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "wemore": "^0.6.2"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
