@@ -28,3 +28,17 @@ DEVICE_NAME : The human-readable name for the device. You will speak this name w
 DEVICE_UUID : A unique string identifying the device (UUID v4)
 DEVICE_PORT : Port usded by emulated device
 ```
+
+## Amazon Echo Setup
+To discover the new device follow next steps:
+- Open Alexa app
+- Go to the menu, and then select Devices
+- Add device “+”
+- “Other“
+- Let Alexa app scan to look for new devices
+
+Finally the emulated Wemo Socket device should appear.
+
+You will be able to send voice commands like:
+- “Alexa, turn ON Awtrix“
+- “Alexa, turn OFF Awtrix“
